@@ -18,6 +18,7 @@
     	<scope>test</scope>
 	</dependency>
   </dependencies>
+<build>
   <plugins>
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
@@ -25,4 +26,5 @@
       <version>3.0.0-M5</version>
     </plugin>
   </plugins>
+ </build>
 </project>
