@@ -71,12 +71,6 @@ public class APITest {
 		
 		System.out.println(id);
 		
-		//remover
-		RestAssured.given()
-		.when()
-			.delete("/todo/"+id)
-		.then()
-			.statusCode(204)
 		;
 	}
 }
